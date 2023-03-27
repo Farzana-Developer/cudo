@@ -198,11 +198,11 @@ header{
 }
 .team_icon .fa-brands{
     color: #fff;
-    background-color: #bdd1df;
+    background-color: #5aa6db;
     padding: .5rem;
     border-radius: 50%;
     text-align: center;
-    border: 1px solid #bdd1df;
+    border: 1px solid #70b3e4;
     margin: 0 .1rem;
 }
 .team_icon .fa-brands:hover{
