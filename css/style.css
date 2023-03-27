@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap');
+:root{
+    --bg-fast: #87509c;
+    --bg-second: #17c2a4;
+    --bg-3rd: #e7f1f8;
+    --white: #ffffff;
+    --bg-5th: #ffdd99;
+    --bg-6th: #d74680;
+    --bg-7th: #3c5499;
+    --primary: #3c4761;
+}
+*{
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+    padding: 0;
+    outline-offset: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    list-style: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--white);
+    transform: all linear .5s;
+}
+/*====Common tag start====*/
+.btn{
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #eb7d4b;
+    padding: 1rem 3.6rem;
+    border-bottom: 5px solid #c86a40;
+}
+.common_heading{
+    text-align: center;
+    color: var(--white);
+}
+.common_heading h1{
+    font-size: 2.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.common_heading hr{
+    width: 8%;
+    margin: .7rem auto;
+    border: 2px solid #14a58c;
+}
+.common_heading p{
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+section{
+    padding: 4rem 0;
+}
+/*====Common tag End====*/
+/*====Heading Part Start====*/
+header{
+    background-color: var(--bg-fast);
+}
+.navbar {
+    padding: 1rem 1.5rem;
+    background-color: var(--bg-fast);
+}
+.navbar-nav a{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.navbar-light .navbar-brand img{
+    width: 100%;
+    padding: 1rem;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+    background-color: #643a79;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fff;
+    background-color: #643a79;
+    margin: 0 .1rem;
+    padding: .6rem 1.3rem;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    margin: 0 .1rem;
+    padding: .6rem 1.3rem;
+}
+.navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
+.navbar-toggler {
+    background-color: #fff;
+}
+.header-bottom{
+    background-color: var(--bg-fast);
+    padding: 13rem 0;
+    text-align: center;
+}
+.header-bottom .col-lg-12{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.header-bottom p{
+    color: #fff;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+.btn:hover{
+    color: #eb7d4b;
+    background-color: #fff;
+    border: 1px solid #eb7d4b;
+    border-bottom: 5px solid #c86a40;
+}
+/*====Heading Part End====*/
+/*=====Service Part Start=====*/
+.services{
+    background-color: var(--bg-second);
+}
+.services_box{
+    padding: 3rem 0;
+}
+.services_box .row{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.services_box .row img{
+    width: 40%;
+}
+.services_box .row h2{
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 1rem 0;
+    padding-bottom: 0;
+}
+.services_box .row p{
+    font-size: 1rem;
+    color: #fff;
+}
+.box_01{
+    padding-top: 2.5rem;
+}
+.box_03{
+    padding-top: 2.1rem;
+}
+.box_03 img{
+    padding-bottom: 2rem;
+}
+/*=====Service Part End=====*/
+/*=====Team Part Start=====*/
+.team{
+    background-color: var(--bg-3rd);
+}
+.team_heading h1{
+    color: #3c4761;
+}
+.team_heading hr{
+    border: 2px solid #c8d9e5;
+}
+.team_heading p{
+    color: #3c4761;
+}
+.team_box .row{
+    width: 100%;
+    margin: 0 auto;
+}
+.col-sm-12{
+    width: 80%;
+}
+.team_box img {
+    border-radius: 50%;
+    width: 65%;
+    padding-bottom: .7rem;
+    cursor: pointer;
+}
+.team_box{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+.team_box h2{
+    color: #27283d;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.team_box p{
+    color: #27283d;
+    font-size: 1rem;
+}
+.team_box h3{
+    color: #30bae7;
+    font-size: .9rem;
+}
+.team_icon .fa-brands{
+    color: #fff;
+    background-color: #bdd1df;
+    padding: .5rem;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid #bdd1df;
+    margin: 0 .1rem;
+}
+.team_icon .fa-brands:hover{
+    color: #27283d;
+    background-color: #fff;
+    border: 1px solid #27283d;
+}
+.team_icon .fa-sharp{
+    color: #fff;
+    background-color: #bdd1df;
+    padding: .5rem;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid #bdd1df;
+}
+.team_icon .fa-sharp:hover{
+    color: #27283d;
+    background-color: #fff;
+    border: 1px solid #27283d;
+}
+/*=====Team Part End=====*/
+/*=====Skill Part Start=====*/
+.skill{
+    background-color: var(--white);
+}
+.skill_heading h1{
+    color: #3c4761;
+}
+.skill_heading hr{
+    border: 2px solid #c8d9e5;
+}
+.skill_heading p{
+    color: #3c4761;
+}
+.skill_box{
+    padding: 3rem 0;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.skill_box img{
+    width: 65%;
+}
+.skill_box h2{
+    font-size: 1.6rem;
+    color: #3c4761;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 1.4rem;
+}
+/*=====Skill Part End=====*/
+/*=====Portfolio Part Start=====*/
+.portfolio{
+    background-color: var(--bg-5th);
+}
+.portfolio_heading h1{
+    color: #393939;
+}
+.portfolio_heading hr{
+    border: 2px solid #e5c37f;
+}
+.portfolio_heading p{
+    color: #393939;
+}
+.portfolio_box{
+    padding-top: 5rem;
+    text-align: center;
+}
+.portfolio_button{
+    text-align: center;
+    padding-top: 3rem;
+}
+.portfolio_button a{
+    background-color: #17c2a4;
+    border-bottom: 5px solid #14a58c;
+}
+.portfolio_button a:hover{
+    border: 1px solid #14a58c;
+    border-bottom: 5px solid #14a58c;
+    color: #17c2a4;
+}
+.portfolio_box img{
+    translate:(all linear .3s);
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+.portfolio_box img:hover{
+    transform: scale(1.1);
+}
+.portfolio_items{
+    text-align: center;
+    padding-top: 2rem;
+}
+.portfolio_items .btn-default{
+    padding: .1rem 1.4rem;
+    background-color: #ebc985;
+    border: 1px solid #ebc985;
+    color: #393939;
+    margin: 0 .2rem;
+}
+.portfolio_items .btn-default.active{
+    color: #393939;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+.portfolio_items .btn-default:hover{
+    color: #393939;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+/*=====Portfolio Part End=====*/
+/*=====People Part Start=====*/
+.people{
+    background-color: var(--bg-6th);
+}
+.people_heading h1{
+    color: #fff;
+}
+.people_heading hr{
+    border: 2px solid #b73c6d;
+}
+.people_heading p{
+    color: #fff;
+}
+.people_team{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+.media-body p{
+    color: #fff;
+    font-size: .8rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.media-body h3{
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.media-body h4{
+    color: #ffdd99;
+    font-size: .8rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.mt-3, .my-3 {
+    margin-top: 0rem !important;
+}
+/*=====People Part End=====*/
+/*=====get-in-touch Part Start=====*/
+.get{
+    background-color: var(--bg-7th);
+}
+.get_heading h1{
+    color: #fff;
+}
+.get_heading hr{
+    border: 2px solid #273a71;
+}
+.get_heading p{
+    color: #fff;
+}
+.get_button{
+    text-align: center;
+    padding-top: 3rem;
+}
+.get_button a{
+    background-color: #30bae7;
+    border-bottom: 5px solid #299ec5;
+}
+.get_button a:hover{
+    border: 1px solid #30bae7;
+    border-bottom: 5px solid #299ec5;
+    color: #30bae7;
+}
+.form-control {
+     width: 98%;
+     padding: .375rem .75rem;
+     margin: 2rem 0;
+     background-color: #273a71;
+     background-clip: padding-box;
+     border: 2px solid #273a71;
+}
+.form-row {
+    width: 68%;
+    margin: 0 auto;
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+    height: 10rem;
+     background-color: #273a71;
+     background-clip: padding-box;
+     border: 2px solid #273a71;
+}
+/*=====get-in-touch Part End=====*/
+/*=====Footer Part Start=====*/
+footer{
+    padding: 2.3rem 0;
+}
+.footer{
+    background-color: #273a71;
+}
+.footer_container{
+    width: 55%;
+    margin: 0 auto;
+}
+.footer_container ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+}
+.footer_container ul li a{
+    color: #fff;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+.footer_container ul li a:hover{
+    text-decoration: underline;
+    color: #30bae7;
+}
+/*=====Footer Part End=====*/
